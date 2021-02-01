@@ -1,0 +1,48 @@
+
+.banner{
+    display: flex;
+        justify-content:center;
+        align-items:center;
+        margin-bottom:1em;
+        background-color:rgb(235, 235, 235);
+        height:500px;
+        background-image: url(https://assets.entrepreneur.com/content/3x2/2000/1593079102-work-731198.jpg);
+        background-size:cover;
+        background-position:center;
+        position:relative;
+}
+.aboutme{
+    padding:2%;
+        height:100%;
+        background:rgb(243, 243, 243);
+}
+.title-box{
+    text-align: center;
+}
+.container-box{
+    display:grid;
+       grid-template-columns:repeat(3,1fr);
+       background:white;
+       text-align:center;
+       margin:4%;
+       height:auto;
+       width:auto; 
+}
+.box-education{
+    text-align:center;
+        padding: 10px;
+        width:80%;
+        height:150px;
+        box-shadow: 2px 2px 5px #999;
+        margin:2%;
+        font-family:arial;
+}
+.box-skills{
+    text-align:center;
+        padding: 10px;
+        width:80%;
+        height:150px;
+        box-shadow: 2px 2px 5px #999;
+        margin:2%;
+        font-family:arial;
+}
